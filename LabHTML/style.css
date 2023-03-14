@@ -1,0 +1,73 @@
+header h1 {
+  background: red;
+  color: black;
+  border: 100px;
+  padding: 20px;
+  text-align: center;
+  margin: 0%;
+}
+
+body {
+  margin: 0%;
+  height: auto;
+}
+
+#navbar {
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+}
+
+.menu {
+  margin: 0%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.menu li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.menu li {
+  padding: 10px;
+  display: inline-block;
+}
+
+menu li:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0;
+  margin-top: 0%;
+}
+
+.menu li:nth-child(2):hover #drop1,
+.menu li:nth-child(3):hover #drop2 {
+  display: block;
+}
+
+#drop1,
+#drop2 {
+  position: absolute;
+  width: auto;
+  max-width: 150px;
+  display: none;
+  top: 17%;
+  background: whitesmoke;
+  padding: 0%;
+}
+
+#drop1 li,
+#drop2 li {
+  display: block;
+}
+
+#drop1 li:hover,
+#drop2 li:hover {
+  background: gainsboro;
+}
+
+#drop1 li a,
+#drop2 li a {
+  color: black;
+  font-size: 16px;
+}
